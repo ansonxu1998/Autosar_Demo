@@ -2,6 +2,7 @@ eclipse.preferences.version=1
 lastEcuToSync=/DBC_SysDesc_Can_Network/Pkg_Ecu/BMS
 lastFileToSync=Project_EcucValues.arxml
 lastFileTypeSel=single
+lastSelReferences_EcuMComMChannelRef=/ETAS_Project/EcucModuleConfigurationValuess/ComM/ComMConfigSet/ComMChannel_Can_Network_0_Channel;
 multiFileSync=
 scripLocations=
 syncFile=

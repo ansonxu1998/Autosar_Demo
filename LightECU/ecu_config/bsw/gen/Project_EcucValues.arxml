@@ -7,12 +7,12 @@
         <AR-PACKAGE>
           <SHORT-NAME>EcucModuleConfigurationValuess</SHORT-NAME>
           <ELEMENTS>
-            <ECUC-MODULE-CONFIGURATION-VALUES UUID="3681a369-ebf2-4cfb-84b3-aa09d72bf6e1">
+            <ECUC-MODULE-CONFIGURATION-VALUES UUID="2e23e6fc-1524-4318-8fdc-121ba6048ade">
               <SHORT-NAME>ComM</SHORT-NAME>
               <DEFINITION-REF DEST="ECUC-MODULE-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM</DEFINITION-REF>
               <IMPLEMENTATION-CONFIG-VARIANT>VARIANT-PRE-COMPILE</IMPLEMENTATION-CONFIG-VARIANT>
               <CONTAINERS>
-                <ECUC-CONTAINER-VALUE UUID="37eecb09-62c1-46f4-bda4-1b0fa71bbed7">
+                <ECUC-CONTAINER-VALUE UUID="d42dfd54-2604-4cab-9754-1345bb03ee68">
                   <SHORT-NAME>ComMGeneral</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMGeneral</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -62,15 +62,15 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="9c9b457a-f1c4-409b-ba98-f447433fe95d">
+                <ECUC-CONTAINER-VALUE UUID="b519408f-36fe-45c4-b599-35b0e33d4403">
                   <SHORT-NAME>ComMConfigSet</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMConfigSet</DEFINITION-REF>
                   <SUB-CONTAINERS>
-                    <ECUC-CONTAINER-VALUE UUID="13b0b609-8ea3-4c50-838d-e879f1ddf254">
+                    <ECUC-CONTAINER-VALUE UUID="c55e3c52-9ffc-4f14-9990-6ecb7c3cbf74">
                       <SHORT-NAME>ComMUser_Can_Network_0_Channel</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMConfigSet/ComMUser</DEFINITION-REF>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="bf169568-a08d-4d68-ba16-7b96b09816a5">
+                    <ECUC-CONTAINER-VALUE UUID="4e3b9b68-23a4-4369-9093-0cd164188e94">
                       <SHORT-NAME>ComMChannel_Can_Network_0_Channel</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMConfigSet/ComMChannel</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -100,7 +100,7 @@
                         </ECUC-TEXTUAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                       <SUB-CONTAINERS>
-                        <ECUC-CONTAINER-VALUE UUID="9833a777-d8b1-42d6-8639-5437f9f92c74">
+                        <ECUC-CONTAINER-VALUE UUID="b0a628b8-f024-4f6f-85fd-858a29b0c32e">
                           <SHORT-NAME>ComMNetworkManagement</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMConfigSet/ComMChannel/ComMNetworkManagement</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -118,7 +118,7 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="9ab22fc2-c3cb-4ef0-86e6-742d4c51dae2">
+                        <ECUC-CONTAINER-VALUE UUID="1529e941-10e4-4ed2-9328-be1ef0b4714e">
                           <SHORT-NAME>ComMUserPerChannel_Can_Network_0_Channel</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_ComM/EcucModuleDefs/ComM/ComMConfigSet/ComMChannel/ComMUserPerChannel</DEFINITION-REF>
                           <REFERENCE-VALUES>
@@ -134,12 +134,12 @@
                 </ECUC-CONTAINER-VALUE>
               </CONTAINERS>
             </ECUC-MODULE-CONFIGURATION-VALUES>
-            <ECUC-MODULE-CONFIGURATION-VALUES UUID="1c34c0bc-bf53-45f7-8b1b-3766fea40c71">
+            <ECUC-MODULE-CONFIGURATION-VALUES UUID="84fa27ba-1bcf-4966-a629-985cf5b7f1cf">
               <SHORT-NAME>CanIf</SHORT-NAME>
               <DEFINITION-REF DEST="ECUC-MODULE-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf</DEFINITION-REF>
               <IMPLEMENTATION-CONFIG-VARIANT>VARIANT-PRE-COMPILE</IMPLEMENTATION-CONFIG-VARIANT>
               <CONTAINERS>
-                <ECUC-CONTAINER-VALUE UUID="6432678f-7e8f-4efb-a3f6-2a2500d865cd">
+                <ECUC-CONTAINER-VALUE UUID="2d9cb86f-1015-4b09-99f3-59738e5582eb">
                   <SHORT-NAME>CanIfInitCfg</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -149,11 +149,11 @@
                     </ECUC-TEXTUAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                   <SUB-CONTAINERS>
-                    <ECUC-CONTAINER-VALUE UUID="71a21d5e-ef65-4e46-987f-6e08ebf5b99a">
+                    <ECUC-CONTAINER-VALUE UUID="2843be03-5566-42f2-bde9-a2742b4347cc">
                       <SHORT-NAME>CanIfInitHohCfg</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg</DEFINITION-REF>
                       <SUB-CONTAINERS>
-                        <ECUC-CONTAINER-VALUE UUID="690797f2-06b2-4aa2-b66d-1c10331e89b8">
+                        <ECUC-CONTAINER-VALUE UUID="2c692b1f-7195-4a37-a4e8-b499969a3d40">
                           <SHORT-NAME>Can_Network_CANNODE_0_Rx_Ext_MailBox_1</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHrhCfg</DEFINITION-REF>
                           <REFERENCE-VALUES>
@@ -167,7 +167,7 @@
                             </ECUC-REFERENCE-VALUE>
                           </REFERENCE-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="0be6eea3-8742-4823-8720-dedeb91134fa">
+                        <ECUC-CONTAINER-VALUE UUID="6b5ec3a2-940d-4918-a306-4d0b9966b2c1">
                           <SHORT-NAME>Can_Network_CANNODE_0_Rx_Ext_MailBox_2</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHrhCfg</DEFINITION-REF>
                           <REFERENCE-VALUES>
@@ -181,7 +181,7 @@
                             </ECUC-REFERENCE-VALUE>
                           </REFERENCE-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="3947d614-6d78-4c11-9025-57916abfe9f8">
+                        <ECUC-CONTAINER-VALUE UUID="399a7d64-53c9-4f5b-ba07-6ef947434195">
                           <SHORT-NAME>Can_Network_CANNODE_0_Rx_Ext_MailBox_3</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHrhCfg</DEFINITION-REF>
                           <REFERENCE-VALUES>
@@ -195,7 +195,7 @@
                             </ECUC-REFERENCE-VALUE>
                           </REFERENCE-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="0a6f7016-627e-4d7e-8d3a-70a6043ad039">
+                        <ECUC-CONTAINER-VALUE UUID="77f8a51b-a49f-4ef1-9a97-8321c2a5117a">
                           <SHORT-NAME>Can_Network_CANNODE_0_Rx_Ext_MailBox_4</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHrhCfg</DEFINITION-REF>
                           <REFERENCE-VALUES>
@@ -209,7 +209,7 @@
                             </ECUC-REFERENCE-VALUE>
                           </REFERENCE-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="2a53c95a-5bb1-4535-9439-0a275601ab06">
+                        <ECUC-CONTAINER-VALUE UUID="cfc7a3af-5bff-4f15-9e20-a7ec79866309">
                           <SHORT-NAME>Can_Network_CANNODE_0_Tx_Ext_MailBox_1</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHthCfg</DEFINITION-REF>
                           <REFERENCE-VALUES>
@@ -223,7 +223,7 @@
                             </ECUC-REFERENCE-VALUE>
                           </REFERENCE-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="50bfe1ed-5460-48be-8124-9e15a3929eb1">
+                        <ECUC-CONTAINER-VALUE UUID="56076525-1474-4c5e-8bb0-91947ed1db79">
                           <SHORT-NAME>Can_Network_CANNODE_0_Tx_Ext_MailBox_2</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHthCfg</DEFINITION-REF>
                           <REFERENCE-VALUES>
@@ -237,7 +237,7 @@
                             </ECUC-REFERENCE-VALUE>
                           </REFERENCE-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="803f1104-a36f-460a-a207-75472db2af24">
+                        <ECUC-CONTAINER-VALUE UUID="29b9eafc-04e1-46d8-9763-13be69676a8f">
                           <SHORT-NAME>Can_Network_CANNODE_0_Tx_Ext_MailBox_3</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHthCfg</DEFINITION-REF>
                           <REFERENCE-VALUES>
@@ -251,7 +251,7 @@
                             </ECUC-REFERENCE-VALUE>
                           </REFERENCE-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="bc30ecbe-f84d-4fee-b30a-a852634579b6">
+                        <ECUC-CONTAINER-VALUE UUID="fb7f8307-7496-446a-8d86-c24b0153962e">
                           <SHORT-NAME>Can_Network_CANNODE_0_Tx_Ext_MailBox_4</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHthCfg</DEFINITION-REF>
                           <REFERENCE-VALUES>
@@ -265,7 +265,7 @@
                             </ECUC-REFERENCE-VALUE>
                           </REFERENCE-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="8d6d0bcb-7cf5-44bf-9fb8-67cd56e9c636">
+                        <ECUC-CONTAINER-VALUE UUID="45f368d8-7cc6-4a54-a99d-e8fabee0d433">
                           <SHORT-NAME>Can_Network_CANNODE_0_Tx_Ext_MailBox_5</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfInitHohCfg/CanIfHthCfg</DEFINITION-REF>
                           <REFERENCE-VALUES>
@@ -281,7 +281,7 @@
                         </ECUC-CONTAINER-VALUE>
                       </SUB-CONTAINERS>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="720a129b-8a33-4bea-ab04-5eb8baf6b0df">
+                    <ECUC-CONTAINER-VALUE UUID="f806bd75-4f99-458c-8949-9eeda309761f">
                       <SHORT-NAME>HCU_12_Can_Network_CANNODE_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -325,7 +325,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="7f4ec68d-9b22-4d55-bd18-8d9770006119">
+                    <ECUC-CONTAINER-VALUE UUID="43d575c7-0ac3-4a5f-ace3-d2a3f7eb03cf">
                       <SHORT-NAME>HCU_10_Can_Network_CANNODE_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -369,7 +369,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="05435392-d2c5-4530-b427-7060931c575f">
+                    <ECUC-CONTAINER-VALUE UUID="497cc534-c218-4412-826b-48e335dcec9e">
                       <SHORT-NAME>HCU_11_Can_Network_CANNODE_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -413,7 +413,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="72df4422-a45e-42bd-947a-b6b9fd8e3760">
+                    <ECUC-CONTAINER-VALUE UUID="3a894ecb-62bc-44dc-be7f-e23d0bfd01f3">
                       <SHORT-NAME>HCU_2_Can_Network_CANNODE_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfRxPduCfg</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -457,7 +457,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="0737dee2-6f92-46f1-a407-cd7e299e067f">
+                    <ECUC-CONTAINER-VALUE UUID="abc1b372-69fc-4cb5-b8e6-17acbc9adbed">
                       <SHORT-NAME>Buffer_Can_Network_CANNODE_0_Tx_Ext_MailBox_1</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfBufferCfg</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -473,7 +473,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="7d040667-afd7-4a5f-b6d1-f0fe6ec22866">
+                    <ECUC-CONTAINER-VALUE UUID="48895e10-3294-4f9b-b257-da447d69eb23">
                       <SHORT-NAME>BMS_5_Can_Network_CANNODE_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -513,7 +513,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="fa33c6d6-a043-4db4-a157-56502b490698">
+                    <ECUC-CONTAINER-VALUE UUID="e984fe89-8d4f-44a6-b06f-416b7ce019e1">
                       <SHORT-NAME>Buffer_Can_Network_CANNODE_0_Tx_Ext_MailBox_2</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfBufferCfg</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -529,7 +529,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="0baeb28b-deeb-4333-994d-5f1e3ec46843">
+                    <ECUC-CONTAINER-VALUE UUID="dcc63ecb-b289-404f-b584-0d46710d9f9b">
                       <SHORT-NAME>BMS_2_Can_Network_CANNODE_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -569,7 +569,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="87144bed-c1f9-4ed2-8f6f-bee8f5a37cc0">
+                    <ECUC-CONTAINER-VALUE UUID="557adc18-478e-43b5-8c2c-ba112b732002">
                       <SHORT-NAME>Buffer_Can_Network_CANNODE_0_Tx_Ext_MailBox_3</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfBufferCfg</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -585,7 +585,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="20600b60-70ac-4ddb-8e05-ac2284ec7267">
+                    <ECUC-CONTAINER-VALUE UUID="773cb486-cc48-450e-b449-f44206b7fe3e">
                       <SHORT-NAME>BMS_1_Can_Network_CANNODE_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -625,7 +625,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="6a6acf0e-2740-49db-b399-8cafa0350a00">
+                    <ECUC-CONTAINER-VALUE UUID="0c6261a9-9dae-495f-bb81-f96d2fcde400">
                       <SHORT-NAME>Buffer_Can_Network_CANNODE_0_Tx_Ext_MailBox_4</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfBufferCfg</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -641,7 +641,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="e111e35c-09db-413e-b197-aa56dfade74f">
+                    <ECUC-CONTAINER-VALUE UUID="09cc10fd-c793-44a7-a70d-0443599101d7">
                       <SHORT-NAME>BMS_3_Can_Network_CANNODE_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -681,7 +681,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="d8acaaf0-c444-4115-8ef1-0ec82fbcdd01">
+                    <ECUC-CONTAINER-VALUE UUID="6bbd631e-ae62-4598-8466-d0d3b1f94771">
                       <SHORT-NAME>Buffer_Can_Network_CANNODE_0_Tx_Ext_MailBox_5</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfBufferCfg</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -697,7 +697,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="15013e6c-bb68-4257-a0df-ff875a301ea1">
+                    <ECUC-CONTAINER-VALUE UUID="21b78b22-61f5-483f-af55-4485c2645f17">
                       <SHORT-NAME>BMS_12_Can_Network_CANNODE_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfInitCfg/CanIfTxPduCfg</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -739,7 +739,7 @@
                     </ECUC-CONTAINER-VALUE>
                   </SUB-CONTAINERS>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="77c80683-74a0-4801-9c1d-f2a2ca209a63">
+                <ECUC-CONTAINER-VALUE UUID="5c57c9bf-531f-4c85-a191-1ff0a701e0eb">
                   <SHORT-NAME>CanIfCtrlDrvCfg</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfCtrlDrvCfg</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -759,7 +759,7 @@
                     </ECUC-REFERENCE-VALUE>
                   </REFERENCE-VALUES>
                   <SUB-CONTAINERS>
-                    <ECUC-CONTAINER-VALUE UUID="8ce7cd7f-46ff-4489-8857-04a6303962ca">
+                    <ECUC-CONTAINER-VALUE UUID="98acc733-a999-4f92-8821-fc97c10f0382">
                       <SHORT-NAME>Can_Network_CANNODE_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfCtrlDrvCfg/CanIfCtrlCfg</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -777,7 +777,7 @@
                     </ECUC-CONTAINER-VALUE>
                   </SUB-CONTAINERS>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="4c0c7e38-d18d-45cf-aba6-a3136e11fece">
+                <ECUC-CONTAINER-VALUE UUID="9a15ff67-3261-436b-816c-2b1d8855043e">
                   <SHORT-NAME>CanIfDispatchCfg</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfDispatchCfg</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -795,7 +795,7 @@
                     </ECUC-TEXTUAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="8a5b97ec-64de-49f2-a596-6f2b34f215fd">
+                <ECUC-CONTAINER-VALUE UUID="cf965c5e-eb78-4f3c-bd42-e18ca4485d81">
                   <SHORT-NAME>CanIfPrivateCfg</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPrivateCfg</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -805,7 +805,7 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="ba655695-0b5b-48fa-a011-8e0566de47de">
+                <ECUC-CONTAINER-VALUE UUID="bdaac4e8-abce-4b06-b22c-e52b7c34fc46">
                   <SHORT-NAME>CanIfPublicCfg</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanIf/EcucModuleDefs/CanIf/CanIfPublicCfg</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -885,12 +885,12 @@
                 </ECUC-CONTAINER-VALUE>
               </CONTAINERS>
             </ECUC-MODULE-CONFIGURATION-VALUES>
-            <ECUC-MODULE-CONFIGURATION-VALUES UUID="72551343-1c21-4f0c-adaf-e0e72ac914c7">
+            <ECUC-MODULE-CONFIGURATION-VALUES UUID="cec28cd5-002f-4565-b7cf-7fa4acf6920f">
               <SHORT-NAME>CanSM</SHORT-NAME>
               <DEFINITION-REF DEST="ECUC-MODULE-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM</DEFINITION-REF>
               <IMPLEMENTATION-CONFIG-VARIANT>VARIANT-PRE-COMPILE</IMPLEMENTATION-CONFIG-VARIANT>
               <CONTAINERS>
-                <ECUC-CONTAINER-VALUE UUID="b0fc5baa-c7e6-4857-b4b8-9484c7729438">
+                <ECUC-CONTAINER-VALUE UUID="ef6b56f2-2991-4829-b601-9150c7e798c8">
                   <SHORT-NAME>CanSMConfiguration</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMConfiguration</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -904,7 +904,7 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                   <SUB-CONTAINERS>
-                    <ECUC-CONTAINER-VALUE UUID="99c1cc94-1812-4283-b46c-e12bac1333d6">
+                    <ECUC-CONTAINER-VALUE UUID="46f1d933-f2a1-4277-881a-7d3d7a4b210f">
                       <SHORT-NAME>CanSMManagerNetwork_Can_Network_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMConfiguration/CanSMManagerNetwork</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -936,7 +936,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                       <SUB-CONTAINERS>
-                        <ECUC-CONTAINER-VALUE UUID="246912cb-1e10-4c8e-a28f-f7c610083845">
+                        <ECUC-CONTAINER-VALUE UUID="bad5c2ff-6e2a-40d3-a59b-e391a925106e">
                           <SHORT-NAME>CanSMDemEventParameterRefs</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMConfiguration/CanSMManagerNetwork/CanSMDemEventParameterRefs</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -946,7 +946,7 @@
                             </ECUC-TEXTUAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="fe2c3de6-b568-4483-b28b-c7347d65a8fe">
+                        <ECUC-CONTAINER-VALUE UUID="47d3d0d8-7e4d-450a-8295-dd13010c38fb">
                           <SHORT-NAME>CanSMController_Can_Network_CANNODE_0</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMConfiguration/CanSMManagerNetwork/CanSMController</DEFINITION-REF>
                           <REFERENCE-VALUES>
@@ -960,7 +960,7 @@
                     </ECUC-CONTAINER-VALUE>
                   </SUB-CONTAINERS>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="a76fcb23-fde5-4cec-8a90-21b2ff3b683d">
+                <ECUC-CONTAINER-VALUE UUID="43ac8be3-b3a4-4343-8e12-b82c2cb6dbe8">
                   <SHORT-NAME>CanSMGeneral</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_CanSM/EcucModuleDefs/CanSM/CanSMGeneral</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -980,12 +980,12 @@
                 </ECUC-CONTAINER-VALUE>
               </CONTAINERS>
             </ECUC-MODULE-CONFIGURATION-VALUES>
-            <ECUC-MODULE-CONFIGURATION-VALUES UUID="714d42c8-7bae-4613-9fd2-9933f189cdf1">
+            <ECUC-MODULE-CONFIGURATION-VALUES UUID="1fcea5e9-01a5-4fa3-9e4d-e19b2f2a007c">
               <SHORT-NAME>PduR</SHORT-NAME>
               <DEFINITION-REF DEST="ECUC-MODULE-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR</DEFINITION-REF>
               <IMPLEMENTATION-CONFIG-VARIANT>VARIANT-PRE-COMPILE</IMPLEMENTATION-CONFIG-VARIANT>
               <CONTAINERS>
-                <ECUC-CONTAINER-VALUE UUID="78f8936b-eeb3-4d8c-8417-68e4ef9f5484">
+                <ECUC-CONTAINER-VALUE UUID="9b456232-01ba-47ea-8f71-d3b64730de6d">
                   <SHORT-NAME>PduRGeneral</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRGeneral</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -1071,7 +1071,7 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="e41d96ef-1cce-4cab-ac83-5f9fb841ad52">
+                <ECUC-CONTAINER-VALUE UUID="588b3923-a0e2-4ea5-a84e-7fe011b856b2">
                   <SHORT-NAME>PduRRoutingTables</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -1081,15 +1081,15 @@
                     </ECUC-NUMERICAL-PARAM-VALUE>
                   </PARAMETER-VALUES>
                   <SUB-CONTAINERS>
-                    <ECUC-CONTAINER-VALUE UUID="e848d2a9-2a6f-45ee-bcc5-0473ca01508b">
+                    <ECUC-CONTAINER-VALUE UUID="2b334ef2-b160-4524-99bf-408b9ebe3331">
                       <SHORT-NAME>PduRRoutingTable</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable</DEFINITION-REF>
                       <SUB-CONTAINERS>
-                        <ECUC-CONTAINER-VALUE UUID="1c034cae-e81b-4491-9c9b-3641530b5c78">
+                        <ECUC-CONTAINER-VALUE UUID="4120317b-c73a-42d6-a781-c44c5b08c816">
                           <SHORT-NAME>HCU_12_Can_Network_CANNODE_0_CanIf2Com</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath</DEFINITION-REF>
                           <SUB-CONTAINERS>
-                            <ECUC-CONTAINER-VALUE UUID="7b0ac060-06ab-4914-895b-c0cb316b6e12">
+                            <ECUC-CONTAINER-VALUE UUID="133087fe-7aec-4363-8e93-4b028c5e6aad">
                               <SHORT-NAME>HCU_12_Can_Network_CANNODE_0_CanIf2PduR</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRSrcPdu</DEFINITION-REF>
                               <REFERENCE-VALUES>
@@ -1099,7 +1099,7 @@
                                 </ECUC-REFERENCE-VALUE>
                               </REFERENCE-VALUES>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="ccc1f902-59bf-49d5-adcf-0a1bf0279088">
+                            <ECUC-CONTAINER-VALUE UUID="c427d178-4b6a-4bc0-a21a-a1c24a5b6c75">
                               <SHORT-NAME>HCU_12_Can_Network_CANNODE_0_PduR2Com</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRDestPdu</DEFINITION-REF>
                               <PARAMETER-VALUES>
@@ -1117,11 +1117,11 @@
                             </ECUC-CONTAINER-VALUE>
                           </SUB-CONTAINERS>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="ced19ce9-8138-45aa-a9d9-f2137a76b728">
+                        <ECUC-CONTAINER-VALUE UUID="6ff2e2cb-d85b-438f-89f4-bb5030a23d86">
                           <SHORT-NAME>HCU_10_Can_Network_CANNODE_0_CanIf2Com</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath</DEFINITION-REF>
                           <SUB-CONTAINERS>
-                            <ECUC-CONTAINER-VALUE UUID="11fab3e7-b13d-4d36-9df7-577d0c0cf9c4">
+                            <ECUC-CONTAINER-VALUE UUID="129eecfc-9248-4d5e-a26b-f2d9829832a2">
                               <SHORT-NAME>HCU_10_Can_Network_CANNODE_0_CanIf2PduR</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRSrcPdu</DEFINITION-REF>
                               <REFERENCE-VALUES>
@@ -1131,7 +1131,7 @@
                                 </ECUC-REFERENCE-VALUE>
                               </REFERENCE-VALUES>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="62603422-fe68-4e05-b38c-029c7fad2b38">
+                            <ECUC-CONTAINER-VALUE UUID="2013c170-c0a8-4ee8-b2b4-719d309bae63">
                               <SHORT-NAME>HCU_10_Can_Network_CANNODE_0_PduR2Com</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRDestPdu</DEFINITION-REF>
                               <PARAMETER-VALUES>
@@ -1149,11 +1149,11 @@
                             </ECUC-CONTAINER-VALUE>
                           </SUB-CONTAINERS>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="815f584c-a117-4cba-91fe-867fdadbb85f">
+                        <ECUC-CONTAINER-VALUE UUID="1527219a-2530-48a3-aed9-b5566147b3d4">
                           <SHORT-NAME>HCU_11_Can_Network_CANNODE_0_CanIf2Com</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath</DEFINITION-REF>
                           <SUB-CONTAINERS>
-                            <ECUC-CONTAINER-VALUE UUID="8ef0c301-2f71-40f5-8195-0a37a83d6862">
+                            <ECUC-CONTAINER-VALUE UUID="1cb21ed3-8c8b-49e9-9e59-87af19ace051">
                               <SHORT-NAME>HCU_11_Can_Network_CANNODE_0_CanIf2PduR</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRSrcPdu</DEFINITION-REF>
                               <REFERENCE-VALUES>
@@ -1163,7 +1163,7 @@
                                 </ECUC-REFERENCE-VALUE>
                               </REFERENCE-VALUES>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="5313e3dd-d249-42ac-b61a-d5699b896a4a">
+                            <ECUC-CONTAINER-VALUE UUID="fe155a0c-e9f2-409c-8974-4386b36dd783">
                               <SHORT-NAME>HCU_11_Can_Network_CANNODE_0_PduR2Com</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRDestPdu</DEFINITION-REF>
                               <PARAMETER-VALUES>
@@ -1181,11 +1181,11 @@
                             </ECUC-CONTAINER-VALUE>
                           </SUB-CONTAINERS>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="17f830a4-2d6f-4791-bd0b-09076431c96e">
+                        <ECUC-CONTAINER-VALUE UUID="342a8b03-ea68-445f-829b-1dba912064a0">
                           <SHORT-NAME>HCU_2_Can_Network_CANNODE_0_CanIf2Com</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath</DEFINITION-REF>
                           <SUB-CONTAINERS>
-                            <ECUC-CONTAINER-VALUE UUID="3bf2a206-ae80-451c-99cb-ec731abbab8e">
+                            <ECUC-CONTAINER-VALUE UUID="8f92b336-4530-497c-a7a8-ac9a5e8c6d99">
                               <SHORT-NAME>HCU_2_Can_Network_CANNODE_0_CanIf2PduR</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRSrcPdu</DEFINITION-REF>
                               <REFERENCE-VALUES>
@@ -1195,7 +1195,7 @@
                                 </ECUC-REFERENCE-VALUE>
                               </REFERENCE-VALUES>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="b64e91b5-1b60-462e-b8b9-c0124174b4ef">
+                            <ECUC-CONTAINER-VALUE UUID="b6c87d0c-77cf-4881-a2c4-d0e8fcc2fe55">
                               <SHORT-NAME>HCU_2_Can_Network_CANNODE_0_PduR2Com</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRDestPdu</DEFINITION-REF>
                               <PARAMETER-VALUES>
@@ -1213,11 +1213,11 @@
                             </ECUC-CONTAINER-VALUE>
                           </SUB-CONTAINERS>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="351c999f-831c-4247-a3b2-2beb7e9d10fe">
+                        <ECUC-CONTAINER-VALUE UUID="0e018f28-4b78-4045-954e-b32112904703">
                           <SHORT-NAME>BMS_5_Can_Network_CANNODE_0_Com2CanIf</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath</DEFINITION-REF>
                           <SUB-CONTAINERS>
-                            <ECUC-CONTAINER-VALUE UUID="6d776202-7473-4c56-bb0c-b030c50eab08">
+                            <ECUC-CONTAINER-VALUE UUID="9b628b07-40cb-4bfd-897a-1461728c60e3">
                               <SHORT-NAME>BMS_5_Can_Network_CANNODE_0_Com2PduR</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRSrcPdu</DEFINITION-REF>
                               <REFERENCE-VALUES>
@@ -1227,7 +1227,7 @@
                                 </ECUC-REFERENCE-VALUE>
                               </REFERENCE-VALUES>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="a506cab8-cdb6-436f-8986-7ff9c0f5079a">
+                            <ECUC-CONTAINER-VALUE UUID="89027fa4-c053-4eb2-b594-4cfffd288c93">
                               <SHORT-NAME>BMS_5_Can_Network_CANNODE_0_PduR2CanIf</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRDestPdu</DEFINITION-REF>
                               <PARAMETER-VALUES>
@@ -1245,11 +1245,11 @@
                             </ECUC-CONTAINER-VALUE>
                           </SUB-CONTAINERS>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="da443ab3-7cb7-48d8-9273-8a7c825fdb0c">
+                        <ECUC-CONTAINER-VALUE UUID="01a74aa7-65a5-4849-b39f-ed5c3445bc27">
                           <SHORT-NAME>BMS_2_Can_Network_CANNODE_0_Com2CanIf</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath</DEFINITION-REF>
                           <SUB-CONTAINERS>
-                            <ECUC-CONTAINER-VALUE UUID="057e0885-8378-4bcd-b0c5-8703e7b2d0ac">
+                            <ECUC-CONTAINER-VALUE UUID="076a4928-4791-460b-a604-83a70da82a5b">
                               <SHORT-NAME>BMS_2_Can_Network_CANNODE_0_Com2PduR</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRSrcPdu</DEFINITION-REF>
                               <REFERENCE-VALUES>
@@ -1259,7 +1259,7 @@
                                 </ECUC-REFERENCE-VALUE>
                               </REFERENCE-VALUES>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="65ac826c-5ff0-48d8-b9fb-04a3c506cc6f">
+                            <ECUC-CONTAINER-VALUE UUID="fa229a87-f94b-4256-936a-2f2ca118cf1e">
                               <SHORT-NAME>BMS_2_Can_Network_CANNODE_0_PduR2CanIf</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRDestPdu</DEFINITION-REF>
                               <PARAMETER-VALUES>
@@ -1277,11 +1277,11 @@
                             </ECUC-CONTAINER-VALUE>
                           </SUB-CONTAINERS>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="45ea56f4-7d73-4ddb-bd46-5601dfe1d6fd">
+                        <ECUC-CONTAINER-VALUE UUID="19976222-5824-4e1b-b573-2903915fb8ac">
                           <SHORT-NAME>BMS_1_Can_Network_CANNODE_0_Com2CanIf</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath</DEFINITION-REF>
                           <SUB-CONTAINERS>
-                            <ECUC-CONTAINER-VALUE UUID="a959095f-e256-4cd1-99bc-6a4da0d7a701">
+                            <ECUC-CONTAINER-VALUE UUID="34ed00c9-e197-4344-88ce-94b43409f037">
                               <SHORT-NAME>BMS_1_Can_Network_CANNODE_0_Com2PduR</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRSrcPdu</DEFINITION-REF>
                               <REFERENCE-VALUES>
@@ -1291,7 +1291,7 @@
                                 </ECUC-REFERENCE-VALUE>
                               </REFERENCE-VALUES>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="aed704e0-a5c7-4c63-b3ca-190309bfa4c8">
+                            <ECUC-CONTAINER-VALUE UUID="0cfdfcdb-55f6-4b5d-8204-5ec032b3f202">
                               <SHORT-NAME>BMS_1_Can_Network_CANNODE_0_PduR2CanIf</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRDestPdu</DEFINITION-REF>
                               <PARAMETER-VALUES>
@@ -1309,11 +1309,11 @@
                             </ECUC-CONTAINER-VALUE>
                           </SUB-CONTAINERS>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="07dd8a2c-683b-4bbc-976b-2f8bc7e29e61">
+                        <ECUC-CONTAINER-VALUE UUID="5cefba70-eb39-45b7-99a3-327635949550">
                           <SHORT-NAME>BMS_3_Can_Network_CANNODE_0_Com2CanIf</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath</DEFINITION-REF>
                           <SUB-CONTAINERS>
-                            <ECUC-CONTAINER-VALUE UUID="03e96de1-bcfb-4178-b038-77e97a88a0d0">
+                            <ECUC-CONTAINER-VALUE UUID="0423d1a4-f779-43cb-9596-f422de2ca549">
                               <SHORT-NAME>BMS_3_Can_Network_CANNODE_0_Com2PduR</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRSrcPdu</DEFINITION-REF>
                               <REFERENCE-VALUES>
@@ -1323,7 +1323,7 @@
                                 </ECUC-REFERENCE-VALUE>
                               </REFERENCE-VALUES>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="59749045-749e-4332-9207-46277595704f">
+                            <ECUC-CONTAINER-VALUE UUID="c21a7a3c-28db-4041-b3d8-94ffe2814705">
                               <SHORT-NAME>BMS_3_Can_Network_CANNODE_0_PduR2CanIf</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRDestPdu</DEFINITION-REF>
                               <PARAMETER-VALUES>
@@ -1341,11 +1341,11 @@
                             </ECUC-CONTAINER-VALUE>
                           </SUB-CONTAINERS>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="015090be-b604-4da9-bc96-eaf6772b3745">
+                        <ECUC-CONTAINER-VALUE UUID="1be3bbc7-b1a1-456c-b74e-2cd2c47ef7dd">
                           <SHORT-NAME>BMS_12_Can_Network_CANNODE_0_Com2CanIf</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath</DEFINITION-REF>
                           <SUB-CONTAINERS>
-                            <ECUC-CONTAINER-VALUE UUID="cb41fcd2-1939-438f-be04-1ee38ecc5c4e">
+                            <ECUC-CONTAINER-VALUE UUID="0944bb03-9bb7-4da0-a533-699e74cee82f">
                               <SHORT-NAME>BMS_12_Can_Network_CANNODE_0_Com2PduR</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRSrcPdu</DEFINITION-REF>
                               <REFERENCE-VALUES>
@@ -1355,7 +1355,7 @@
                                 </ECUC-REFERENCE-VALUE>
                               </REFERENCE-VALUES>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="297d9269-bd1e-4263-b44f-bc443f946f37">
+                            <ECUC-CONTAINER-VALUE UUID="b03ccaef-e161-490c-b909-7776c2cb5185">
                               <SHORT-NAME>BMS_12_Can_Network_CANNODE_0_PduR2CanIf</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRRoutingTables/PduRRoutingTable/PduRRoutingPath/PduRDestPdu</DEFINITION-REF>
                               <PARAMETER-VALUES>
@@ -1377,7 +1377,7 @@
                     </ECUC-CONTAINER-VALUE>
                   </SUB-CONTAINERS>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="fa15fc4e-dc47-4fd5-be16-42db088282c0">
+                <ECUC-CONTAINER-VALUE UUID="1b34d8f0-9667-4cd4-ae9c-8fe7b2dc0945">
                   <SHORT-NAME>CanIf</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -1433,7 +1433,7 @@
                     </ECUC-REFERENCE-VALUE>
                   </REFERENCE-VALUES>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="7daf0d77-8ffe-4bde-8861-d0477ad9c238">
+                <ECUC-CONTAINER-VALUE UUID="ef7756dd-f7c8-4212-8ae0-16eefad0b26f">
                   <SHORT-NAME>Com</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_PduR/EcucModuleDefs/PduR/PduRBswModules</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -1491,16 +1491,16 @@
                 </ECUC-CONTAINER-VALUE>
               </CONTAINERS>
             </ECUC-MODULE-CONFIGURATION-VALUES>
-            <ECUC-MODULE-CONFIGURATION-VALUES UUID="b5f085ba-88ab-4aeb-abd6-0ccbe1136004">
+            <ECUC-MODULE-CONFIGURATION-VALUES UUID="484f6a14-11f8-47dd-807b-242432b4ca33">
               <SHORT-NAME>EcuC</SHORT-NAME>
               <DEFINITION-REF DEST="ECUC-MODULE-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC</DEFINITION-REF>
               <IMPLEMENTATION-CONFIG-VARIANT>VARIANT-PRE-COMPILE</IMPLEMENTATION-CONFIG-VARIANT>
               <CONTAINERS>
-                <ECUC-CONTAINER-VALUE UUID="a7b99b19-c0f0-4b75-8473-84e742fdfd4d">
+                <ECUC-CONTAINER-VALUE UUID="3a003a41-2d9a-41ec-8e77-3b8b7204d4f4">
                   <SHORT-NAME>EcucConfigSet</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet</DEFINITION-REF>
                   <SUB-CONTAINERS>
-                    <ECUC-CONTAINER-VALUE UUID="59955889-8db0-4ddc-9dd1-9c4e57375391">
+                    <ECUC-CONTAINER-VALUE UUID="3cc8fb67-ffc6-45a9-b7b9-34a4794b5322">
                       <SHORT-NAME>PduCollection</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1514,7 +1514,7 @@
                         </ECUC-TEXTUAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                       <SUB-CONTAINERS>
-                        <ECUC-CONTAINER-VALUE UUID="163bd9c1-b16a-4ba7-83e0-40247789d87b">
+                        <ECUC-CONTAINER-VALUE UUID="f63d501b-51c1-486c-a671-77aff5219d16">
                           <SHORT-NAME>HCU_12_Can_Network_CANNODE_0_CanIf2PduR</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -1524,7 +1524,7 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="6aa4858d-37c1-4f4a-8c4d-8a632bbb92ce">
+                        <ECUC-CONTAINER-VALUE UUID="172ccf32-438f-4d41-8b25-5e8e27d932c5">
                           <SHORT-NAME>HCU_12_Can_Network_CANNODE_0_PduR2Com</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -1534,7 +1534,7 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="afc4ec20-0d5a-4edb-a68e-f9a52ffe009d">
+                        <ECUC-CONTAINER-VALUE UUID="5faa3a91-5c49-4399-b51c-4a8f7bba368d">
                           <SHORT-NAME>HCU_10_Can_Network_CANNODE_0_CanIf2PduR</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -1544,7 +1544,7 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="e53ebd84-f584-400e-9eb3-671501be133a">
+                        <ECUC-CONTAINER-VALUE UUID="d902a557-0be4-4c55-a103-2c9f4a833325">
                           <SHORT-NAME>HCU_10_Can_Network_CANNODE_0_PduR2Com</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -1554,7 +1554,7 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="de519f32-d09c-49e2-bdb6-0cab7959328f">
+                        <ECUC-CONTAINER-VALUE UUID="1a0f7afc-d2ed-4fb3-ada6-de7ac39c4252">
                           <SHORT-NAME>HCU_11_Can_Network_CANNODE_0_CanIf2PduR</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -1564,7 +1564,7 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="7113ee3f-9310-41a2-83d6-c99cb64c813b">
+                        <ECUC-CONTAINER-VALUE UUID="8a9a2348-066c-40f2-a325-bfda902a7637">
                           <SHORT-NAME>HCU_11_Can_Network_CANNODE_0_PduR2Com</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -1574,7 +1574,7 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="a91f2b8d-bfdb-4472-b6d5-3cc5ef63a955">
+                        <ECUC-CONTAINER-VALUE UUID="da942ae7-238e-4e95-b942-ff623a5c620d">
                           <SHORT-NAME>HCU_2_Can_Network_CANNODE_0_CanIf2PduR</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -1584,7 +1584,7 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="b15ace52-870c-410d-b13d-4b55404b4839">
+                        <ECUC-CONTAINER-VALUE UUID="22513bcf-94df-45da-b254-15e99c46fb09">
                           <SHORT-NAME>HCU_2_Can_Network_CANNODE_0_PduR2Com</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -1594,7 +1594,7 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="39e7a2d2-3469-4d56-83d5-9301f49b5175">
+                        <ECUC-CONTAINER-VALUE UUID="b2ec43c5-223e-4091-be68-4f191494d95f">
                           <SHORT-NAME>BMS_5_Can_Network_CANNODE_0_Com2PduR</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -1604,7 +1604,7 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="93a327ac-93cf-47a6-9589-9d9bd3e980cc">
+                        <ECUC-CONTAINER-VALUE UUID="e0c6b6f5-6e44-424e-8f4a-0f122c0ab6b5">
                           <SHORT-NAME>BMS_5_Can_Network_CANNODE_0_PduR2CanIf</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -1614,7 +1614,7 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="34f79577-a11c-4020-b776-f9f228d66464">
+                        <ECUC-CONTAINER-VALUE UUID="088a7dbc-8812-472a-a414-d643ca1684a6">
                           <SHORT-NAME>BMS_2_Can_Network_CANNODE_0_Com2PduR</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -1624,7 +1624,7 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="e65ab3d6-07b2-46fe-aa0b-45b51dfab53b">
+                        <ECUC-CONTAINER-VALUE UUID="10f4f842-9365-4d68-a782-6d3ef3c1304b">
                           <SHORT-NAME>BMS_2_Can_Network_CANNODE_0_PduR2CanIf</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -1634,7 +1634,7 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="e99b5ad8-ebe3-4f5a-bf4c-ce07fa4a8d5d">
+                        <ECUC-CONTAINER-VALUE UUID="59e12963-fb0a-4029-84f3-1472890365b4">
                           <SHORT-NAME>BMS_1_Can_Network_CANNODE_0_Com2PduR</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -1644,7 +1644,7 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="32071f20-a02a-449c-b139-8bfe2be8d8e3">
+                        <ECUC-CONTAINER-VALUE UUID="ecfded24-ea5f-4969-86cb-740694332182">
                           <SHORT-NAME>BMS_1_Can_Network_CANNODE_0_PduR2CanIf</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -1654,7 +1654,7 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="ee42daf7-1ea1-4d31-b4e2-1d953a162baa">
+                        <ECUC-CONTAINER-VALUE UUID="18796b09-0df2-4a88-8c74-7cb9dd52efda">
                           <SHORT-NAME>BMS_3_Can_Network_CANNODE_0_Com2PduR</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -1664,7 +1664,7 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="b76f7b9e-250a-4eaf-8b7b-6903aeccd473">
+                        <ECUC-CONTAINER-VALUE UUID="3489153e-f5c5-4da7-a538-86fc95809e3a">
                           <SHORT-NAME>BMS_3_Can_Network_CANNODE_0_PduR2CanIf</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -1674,7 +1674,7 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="4ade32b9-6f94-4be0-ba97-eda424374880">
+                        <ECUC-CONTAINER-VALUE UUID="de3f4bde-4c0c-4c1a-be11-780811387787">
                           <SHORT-NAME>BMS_12_Can_Network_CANNODE_0_Com2PduR</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -1684,7 +1684,7 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                         </ECUC-CONTAINER-VALUE>
-                        <ECUC-CONTAINER-VALUE UUID="7d761411-ebe2-42d1-9edf-0a62a49fedc9">
+                        <ECUC-CONTAINER-VALUE UUID="f08c9575-c3a8-4e94-a1a4-06c98921c97e">
                           <SHORT-NAME>BMS_12_Can_Network_CANNODE_0_PduR2CanIf</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcucConfigSet/EcucPduCollection/Pdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -1698,7 +1698,7 @@
                     </ECUC-CONTAINER-VALUE>
                   </SUB-CONTAINERS>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="c20292b2-b07a-4dd9-a454-953798f35f08">
+                <ECUC-CONTAINER-VALUE UUID="681b628f-eb7b-4ce7-b947-eb087ef6730c">
                   <SHORT-NAME>EcuCRbSettings</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_EcuC/EcucModuleDefs/EcuC/EcuCRbSettings</DEFINITION-REF>
                   <PARAMETER-VALUES>
@@ -1714,16 +1714,16 @@
                 </ECUC-CONTAINER-VALUE>
               </CONTAINERS>
             </ECUC-MODULE-CONFIGURATION-VALUES>
-            <ECUC-MODULE-CONFIGURATION-VALUES UUID="2b541353-4ee3-4220-a03a-6fbfb92d09b2">
+            <ECUC-MODULE-CONFIGURATION-VALUES UUID="9609a704-35cb-4884-b9dc-5783253bec49">
               <SHORT-NAME>Com</SHORT-NAME>
               <DEFINITION-REF DEST="ECUC-MODULE-DEF">/AUTOSAR_Com/EcucModuleDefs/Com</DEFINITION-REF>
               <IMPLEMENTATION-CONFIG-VARIANT>VARIANT-PRE-COMPILE</IMPLEMENTATION-CONFIG-VARIANT>
               <CONTAINERS>
-                <ECUC-CONTAINER-VALUE UUID="92fdbcc0-3c55-4e33-ba66-f7d313213b81">
+                <ECUC-CONTAINER-VALUE UUID="6af5a769-8a3c-41e2-86b3-e103339b13a5">
                   <SHORT-NAME>ComConfig_0</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig</DEFINITION-REF>
                   <SUB-CONTAINERS>
-                    <ECUC-CONTAINER-VALUE UUID="b90f7d5f-ee67-4517-a174-332c46fcced7">
+                    <ECUC-CONTAINER-VALUE UUID="6eb9df7b-142b-482a-8814-b6801abb2663">
                       <SHORT-NAME>ComTimeBase</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComTimeBase</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1741,11 +1741,11 @@
                         </ECUC-NUMERICAL-PARAM-VALUE>
                       </PARAMETER-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="857bbb59-dc31-4cc1-95c5-51d005345b29">
+                    <ECUC-CONTAINER-VALUE UUID="9f4389a1-cce1-4e12-a78a-315e514a92f8">
                       <SHORT-NAME>ComIPduGroup_Rx</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPduGroup</DEFINITION-REF>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="e84ba6f2-8875-4325-b5f3-e5c1ea27a97a">
+                    <ECUC-CONTAINER-VALUE UUID="582697ba-a43d-44e1-bd8c-bb231826a7d1">
                       <SHORT-NAME>HCU_12_Can_Network_CANNODE_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1777,7 +1777,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="df19b63a-aae9-4a41-ba53-7818fc30f39e">
+                    <ECUC-CONTAINER-VALUE UUID="74f6e055-6060-4747-a7f5-8e7ddc11fe39">
                       <SHORT-NAME>HCU_VIN3Byte0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1817,7 +1817,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="32145687-b0ac-4982-9784-cf317e60a04a">
+                    <ECUC-CONTAINER-VALUE UUID="8e9ade94-b083-4397-ae76-2431b06db09b">
                       <SHORT-NAME>HCU_10_Can_Network_CANNODE_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1877,7 +1877,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="fa721f20-b4e3-420c-8f7b-3f5eb1abfa65">
+                    <ECUC-CONTAINER-VALUE UUID="dcb5d0a8-b17f-462e-83b0-e643a0721061">
                       <SHORT-NAME>HCU_VIN1Byte7</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1917,7 +1917,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="de3c4c08-3ec7-4faf-b77d-656511d70191">
+                    <ECUC-CONTAINER-VALUE UUID="079ffaa7-b08c-45e4-b14d-d6cf17519021">
                       <SHORT-NAME>HCU_VIN1Byte6</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1957,7 +1957,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="517e5e7a-f324-4a9a-8b10-d160de58f2e2">
+                    <ECUC-CONTAINER-VALUE UUID="1edccddc-9de4-4350-88c0-4a525dbf6644">
                       <SHORT-NAME>HCU_VIN1Byte5</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -1997,7 +1997,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="d4d799f2-9f4a-4baa-9b9f-611891667d16">
+                    <ECUC-CONTAINER-VALUE UUID="e7ece4e3-1913-45cd-adea-fbee4c031ecf">
                       <SHORT-NAME>HCU_VIN1Byte4</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2037,7 +2037,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="ab1968ff-d388-497a-a021-bf8eb886e6ff">
+                    <ECUC-CONTAINER-VALUE UUID="104c21d5-9bb8-41e3-bbe6-27c029f24d93">
                       <SHORT-NAME>HCU_VIN1Byte3</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2077,7 +2077,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="94b8f15f-bc46-4595-b8db-62ada73d5935">
+                    <ECUC-CONTAINER-VALUE UUID="2470d3c8-76c1-474f-8139-2f2d83284515">
                       <SHORT-NAME>HCU_VIN1Byte2</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2117,7 +2117,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="5a90998c-8ad3-4012-93a0-f83b8fbffcf8">
+                    <ECUC-CONTAINER-VALUE UUID="7496152c-b7ad-415a-8142-680df152e31b">
                       <SHORT-NAME>HCU_VIN1Byte1</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2157,7 +2157,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="5b36b5c8-2813-4fa7-a592-733a6763f6c2">
+                    <ECUC-CONTAINER-VALUE UUID="7c47e44b-c15b-46e0-89a7-23603f867934">
                       <SHORT-NAME>HCU_VIN1Byte0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2197,7 +2197,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="2d14bf2d-1526-4690-b97a-20f358e587c2">
+                    <ECUC-CONTAINER-VALUE UUID="f49b2e50-a66b-402e-aaff-291b4b2cb680">
                       <SHORT-NAME>HCU_11_Can_Network_CANNODE_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2257,7 +2257,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="730a6940-c98c-4b0f-bf5d-f6cf92dd9d07">
+                    <ECUC-CONTAINER-VALUE UUID="5c77ca9c-b6c0-449f-adbf-63a73598180c">
                       <SHORT-NAME>HCU_VIN2Byte7</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2297,7 +2297,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="637fab30-9689-4827-a59e-f716f3b69547">
+                    <ECUC-CONTAINER-VALUE UUID="b1494f79-bcf6-4024-865a-f31bf913b6c0">
                       <SHORT-NAME>HCU_VIN2Byte6</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2337,7 +2337,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="ee58cc37-9bf7-45db-b61c-6f27dd11cb18">
+                    <ECUC-CONTAINER-VALUE UUID="e60c7dbb-f605-40f7-b84a-4ff7ddbb4698">
                       <SHORT-NAME>HCU_VIN2Byte5</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2377,7 +2377,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="63d3d95a-50cd-416c-873b-d70b7290c486">
+                    <ECUC-CONTAINER-VALUE UUID="cd767de3-05bf-43e1-96b0-d0ab9f4fb01a">
                       <SHORT-NAME>HCU_VIN2Byte4</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2417,7 +2417,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="af1aa977-42a8-4558-82a7-971a529db3b5">
+                    <ECUC-CONTAINER-VALUE UUID="667b1650-bf12-43da-9881-fd35212e2b8c">
                       <SHORT-NAME>HCU_VIN2Byte3</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2457,7 +2457,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="148acbd9-0895-4a6c-b826-f55dcc20dd9c">
+                    <ECUC-CONTAINER-VALUE UUID="fb315e17-315b-422a-8c99-8d9ad58f9897">
                       <SHORT-NAME>HCU_VIN2Byte2</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2497,7 +2497,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="b7215f74-bc68-4355-a04f-851f84934f98">
+                    <ECUC-CONTAINER-VALUE UUID="a3894389-69ef-4377-baf3-4457f109721a">
                       <SHORT-NAME>HCU_VIN2Byte1</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2537,7 +2537,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="1d4d76d3-64e8-46da-85d5-a9048e87b285">
+                    <ECUC-CONTAINER-VALUE UUID="1d7c56a3-ed09-4ae4-a4b0-db2e50d07021">
                       <SHORT-NAME>HCU_VIN2Byte0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2577,7 +2577,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="64491080-2bdc-467f-80ee-597521dbe238">
+                    <ECUC-CONTAINER-VALUE UUID="6eab461a-865e-4459-915c-50a668af8632">
                       <SHORT-NAME>HCU_2_Can_Network_CANNODE_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2689,7 +2689,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="5ef447e6-87c6-4763-a22f-b051ee0656c6">
+                    <ECUC-CONTAINER-VALUE UUID="216c0217-027b-4574-a557-0227e06f020e">
                       <SHORT-NAME>Transcendental_mode</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2729,7 +2729,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="ea7695c4-d5f1-4fe9-9cac-8c54a5ff5d10">
+                    <ECUC-CONTAINER-VALUE UUID="db221476-f6cf-4683-b4d1-ab36146884d7">
                       <SHORT-NAME>HCU_ChgWakeup</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2769,7 +2769,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="e0dff7ee-b47c-41ab-b4f9-71491f1ffa5e">
+                    <ECUC-CONTAINER-VALUE UUID="e66bb2a6-f748-4c64-ac02-64b2f0e4f478">
                       <SHORT-NAME>HCU_WakeupPow</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2809,7 +2809,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="ae62ebc1-a790-44fd-88fe-a84511b0568d">
+                    <ECUC-CONTAINER-VALUE UUID="aac2b4e7-bbc0-4f0e-a153-4458b2bb9e3d">
                       <SHORT-NAME>TCU_fanUnlock</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2849,7 +2849,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="f38aa033-edc9-4798-970f-b7fb14f7265d">
+                    <ECUC-CONTAINER-VALUE UUID="3c94b13a-ee98-4fab-bbe2-6b16f3a16e47">
                       <SHORT-NAME>TCU_EVUnlock</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2889,7 +2889,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="fc931ef0-5624-4cdb-88b2-3517e4dfdd45">
+                    <ECUC-CONTAINER-VALUE UUID="0693bcb1-5c50-4579-b4d2-6185d1003e96">
                       <SHORT-NAME>CCVS2_PauseRES</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2929,7 +2929,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="b53ea164-4a99-468c-855f-08f5c5754e54">
+                    <ECUC-CONTAINER-VALUE UUID="ace9446a-03f7-4463-9891-ad11c5a28c4a">
                       <SHORT-NAME>HCU_KeyPosition</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -2969,7 +2969,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="bb9a815f-a7d9-4f51-ae34-5f066c901804">
+                    <ECUC-CONTAINER-VALUE UUID="fb0490e0-7ca0-4e0e-892a-fac77153f9bc">
                       <SHORT-NAME>TCU_PTCUnlock</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -3009,7 +3009,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="526ae3dd-ec59-483d-97ba-32e90beeec46">
+                    <ECUC-CONTAINER-VALUE UUID="79c0650b-2cf1-482e-9dc9-2f8bdf613a63">
                       <SHORT-NAME>TCU_ACUnlock</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -3049,7 +3049,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="4fc852a2-d472-4a36-9c21-1f2a67df3ca3">
+                    <ECUC-CONTAINER-VALUE UUID="e845960e-aade-416b-8878-512f9ff40f06">
                       <SHORT-NAME>HCU_ACCompressorWorkEnCmd</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -3089,7 +3089,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="3addc39e-c7d2-452a-91a8-3e0081eddfcb">
+                    <ECUC-CONTAINER-VALUE UUID="6239d546-0ae2-4943-955b-03cb18137681">
                       <SHORT-NAME>HCU_PwrOffAllow</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -3129,7 +3129,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="82cf6e27-ec79-4c22-a7d1-134cb7ef9ddf">
+                    <ECUC-CONTAINER-VALUE UUID="3caec857-c115-4d70-a21b-ee2f7be89ca4">
                       <SHORT-NAME>HCU_DriveMode</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -3169,7 +3169,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="b590b869-13ad-41a2-b8d3-ebffed22acd0">
+                    <ECUC-CONTAINER-VALUE UUID="20d55beb-71db-4f6a-92ff-e8b44249d859">
                       <SHORT-NAME>HCU_CruiseSts</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -3209,7 +3209,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="415d60e6-9f4b-4977-b8c6-d9e94ab002d4">
+                    <ECUC-CONTAINER-VALUE UUID="4d837bf3-eb4d-4097-959d-b682aef89193">
                       <SHORT-NAME>Fuel_range</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -3249,7 +3249,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="e650a1ec-cd00-4432-b2d0-bbfc50b2eccd">
+                    <ECUC-CONTAINER-VALUE UUID="c1b0f227-a332-4043-a31c-170d4173b964">
                       <SHORT-NAME>Pure_electric_range</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -3289,7 +3289,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="c3ad4b90-bbb8-4077-851f-e2084f554e71">
+                    <ECUC-CONTAINER-VALUE UUID="d32697f3-a146-476b-ba9a-f2582ae888e6">
                       <SHORT-NAME>HCU_Cruise__Pause_sts</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -3329,7 +3329,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="7d024eba-5475-4bcf-a2ed-d9ff2e028656">
+                    <ECUC-CONTAINER-VALUE UUID="04447a89-b299-432c-bcb4-8868bed22040">
                       <SHORT-NAME>HCU_ChrgSts</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -3369,7 +3369,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="eb06758e-74b8-45d3-96d4-10c68f7c26e1">
+                    <ECUC-CONTAINER-VALUE UUID="793c9eef-6b5a-4843-85cc-c52cb30142c7">
                       <SHORT-NAME>BMS_charge_response</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -3409,7 +3409,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="d1644b49-d7cb-4c7d-a788-e1fc6d772596">
+                    <ECUC-CONTAINER-VALUE UUID="9e454361-dd5a-4167-81c9-42e579463d48">
                       <SHORT-NAME>MCU2_MotorTempExtreOver</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -3449,7 +3449,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="94c9fb46-5ede-47a1-82de-a6486725c4f8">
+                    <ECUC-CONTAINER-VALUE UUID="0f75f499-dd95-4ba9-aae0-465e589c75f8">
                       <SHORT-NAME>MCU1_MotorTempExtreOver</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -3489,7 +3489,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="06fed862-fdcc-4968-898f-a8a8fad0f3f3">
+                    <ECUC-CONTAINER-VALUE UUID="c4647039-edb2-46ed-ae45-a3e80bbe80f6">
                       <SHORT-NAME>HCU_CruiseSpd</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -3529,11 +3529,11 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="93d73942-4b30-4038-b09f-6ca2ce62dee2">
+                    <ECUC-CONTAINER-VALUE UUID="48b228a0-7dfc-4100-9d73-dfed5c9236f5">
                       <SHORT-NAME>ComIPduGroup_Tx</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPduGroup</DEFINITION-REF>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="ebe87d40-c344-49bc-af60-16535029d485">
+                    <ECUC-CONTAINER-VALUE UUID="2bfe4ce0-a303-4bbf-9fcd-2d41022385d8">
                       <SHORT-NAME>BMS_5_Can_Network_CANNODE_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -3585,7 +3585,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                       <SUB-CONTAINERS>
-                        <ECUC-CONTAINER-VALUE UUID="cc2cf331-8f63-4f19-a454-32ceb9b192d2">
+                        <ECUC-CONTAINER-VALUE UUID="95555bbb-9fe8-44ef-96af-7f59e95366a9">
                           <SHORT-NAME>ComTxIPdu</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -3599,11 +3599,11 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                           <SUB-CONTAINERS>
-                            <ECUC-CONTAINER-VALUE UUID="9b3ce810-9936-4a3f-a006-6e05ed18fb13">
+                            <ECUC-CONTAINER-VALUE UUID="b1576ee7-6f27-4ca4-aec3-cbe4d96ec35f">
                               <SHORT-NAME>ComTxModeTrue</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue</DEFINITION-REF>
                               <SUB-CONTAINERS>
-                                <ECUC-CONTAINER-VALUE UUID="a0fb8078-f11f-411b-b114-022dee5e624e">
+                                <ECUC-CONTAINER-VALUE UUID="863fdb6e-8564-4de6-b456-eb4a10fa81eb">
                                   <SHORT-NAME>ComTxMode</SHORT-NAME>
                                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode</DEFINITION-REF>
                                   <PARAMETER-VALUES>
@@ -3631,11 +3631,11 @@
                                 </ECUC-CONTAINER-VALUE>
                               </SUB-CONTAINERS>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="72851709-bdce-4233-9302-ade6d7f7cf6f">
+                            <ECUC-CONTAINER-VALUE UUID="65639fb5-92a9-4677-aad6-71d8229ed9da">
                               <SHORT-NAME>ComTxModeFalse</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse</DEFINITION-REF>
                               <SUB-CONTAINERS>
-                                <ECUC-CONTAINER-VALUE UUID="7e1b4a4f-6613-4680-870b-e16b3f0ce067">
+                                <ECUC-CONTAINER-VALUE UUID="a4aee620-7e85-4eed-a3bd-c8f1c0be0246">
                                   <SHORT-NAME>ComTxMode</SHORT-NAME>
                                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse/ComTxMode</DEFINITION-REF>
                                   <PARAMETER-VALUES>
@@ -3667,7 +3667,7 @@
                         </ECUC-CONTAINER-VALUE>
                       </SUB-CONTAINERS>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="0cc2679a-840b-40e6-aa69-8260052fa3e1">
+                    <ECUC-CONTAINER-VALUE UUID="286eafa8-3b40-43cf-b12f-6cb9e32b2279">
                       <SHORT-NAME>BMS_IC_MinCellTemp</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -3707,7 +3707,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="46cb30b6-e823-4663-90fe-7e53f07acf2d">
+                    <ECUC-CONTAINER-VALUE UUID="bdff97cc-ea7a-41a4-924e-3722e5847b4a">
                       <SHORT-NAME>BMS_IC_MaxCellTemp</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -3747,7 +3747,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="2b66e943-2224-4044-b428-a4b7354b9736">
+                    <ECUC-CONTAINER-VALUE UUID="961d5f1a-90ae-486e-bf27-c0b8c526e10b">
                       <SHORT-NAME>BMS_IC_MaxCellVoltage</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -3787,7 +3787,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="37efcd42-a130-4957-9ec6-73a74743944e">
+                    <ECUC-CONTAINER-VALUE UUID="f65bbfcb-dc27-466f-b5fa-8dd82ce7a480">
                       <SHORT-NAME>BMS_IC_MinCellVoltage</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -3827,7 +3827,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="f5bb2f3d-ebda-4a35-8d97-3ea5244b559d">
+                    <ECUC-CONTAINER-VALUE UUID="04dfc504-80e0-4a93-ac3b-58baa74c565c">
                       <SHORT-NAME>BMS_2_Can_Network_CANNODE_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -3899,7 +3899,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                       <SUB-CONTAINERS>
-                        <ECUC-CONTAINER-VALUE UUID="ee52e8ee-6522-4310-add3-a19db659dcff">
+                        <ECUC-CONTAINER-VALUE UUID="ca561732-0cb3-44d3-9869-723fa2aea9b9">
                           <SHORT-NAME>ComTxIPdu</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -3913,11 +3913,11 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                           <SUB-CONTAINERS>
-                            <ECUC-CONTAINER-VALUE UUID="6f013cc0-67a5-4888-96c4-beaf91da43c3">
+                            <ECUC-CONTAINER-VALUE UUID="b7d4a14d-d149-40c6-bbd1-e9011282383b">
                               <SHORT-NAME>ComTxModeTrue</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue</DEFINITION-REF>
                               <SUB-CONTAINERS>
-                                <ECUC-CONTAINER-VALUE UUID="13b195de-caac-422c-964b-b8af2f7e6efe">
+                                <ECUC-CONTAINER-VALUE UUID="9836b1a5-a4c9-4614-9f19-3916d088fea3">
                                   <SHORT-NAME>ComTxMode</SHORT-NAME>
                                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode</DEFINITION-REF>
                                   <PARAMETER-VALUES>
@@ -3945,11 +3945,11 @@
                                 </ECUC-CONTAINER-VALUE>
                               </SUB-CONTAINERS>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="67d87a31-0cb3-47fd-9490-d026f099b8c7">
+                            <ECUC-CONTAINER-VALUE UUID="10ad1227-42d5-48d8-b326-97b713a15103">
                               <SHORT-NAME>ComTxModeFalse</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse</DEFINITION-REF>
                               <SUB-CONTAINERS>
-                                <ECUC-CONTAINER-VALUE UUID="0ea1edd4-e042-4408-bd97-6c1eb349fa14">
+                                <ECUC-CONTAINER-VALUE UUID="5912c87d-7125-49a3-9289-6325fbe1c132">
                                   <SHORT-NAME>ComTxMode</SHORT-NAME>
                                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse/ComTxMode</DEFINITION-REF>
                                   <PARAMETER-VALUES>
@@ -3981,7 +3981,7 @@
                         </ECUC-CONTAINER-VALUE>
                       </SUB-CONTAINERS>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="0e057837-7fa3-4163-af83-26640feaf5fc">
+                    <ECUC-CONTAINER-VALUE UUID="5cf5738f-1253-4830-b4a7-b7dc5a3fecde">
                       <SHORT-NAME>BMS_VCU_Life</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -4021,7 +4021,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="b8ad8e72-4ea0-41bf-98e8-120787b971f8">
+                    <ECUC-CONTAINER-VALUE UUID="8ed6dab7-d1c2-4d36-a49e-9d0feb3efceb">
                       <SHORT-NAME>BMS_FltCode</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -4061,7 +4061,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="87e3215a-a860-44d7-ba59-cc8d1b59f080">
+                    <ECUC-CONTAINER-VALUE UUID="f0c543cf-e086-4144-ad1a-57ebb8404548">
                       <SHORT-NAME>BMS_FltCount</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -4101,7 +4101,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="f46bdcce-918b-4ea0-8481-05a2d20b117f">
+                    <ECUC-CONTAINER-VALUE UUID="d32ed48d-ece7-4f85-b85c-95d6ddd229a3">
                       <SHORT-NAME>BMS_VCU_DCChargeRelay_Req</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -4141,7 +4141,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="e82bd164-7f3b-4a69-b8eb-67f6ca11236f">
+                    <ECUC-CONTAINER-VALUE UUID="0a1e2e28-eb1f-4204-b49b-f6708a497798">
                       <SHORT-NAME>BMS_ChrgSts</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -4181,7 +4181,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="c28bfd63-9e6d-41ff-acca-808dc480fb80">
+                    <ECUC-CONTAINER-VALUE UUID="41d06973-27c1-4765-8202-6c489246ea60">
                       <SHORT-NAME>BMS_MainNegRelay_Crt</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -4221,7 +4221,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="ac7f2100-cde4-4d0c-b3e9-7d88acad7361">
+                    <ECUC-CONTAINER-VALUE UUID="827c6e99-f857-4f13-bc14-ed0b0843bae2">
                       <SHORT-NAME>BMS_MainNegRelay_Sts</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -4261,7 +4261,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="128d22c2-c71c-44f5-8fb4-e06965e37044">
+                    <ECUC-CONTAINER-VALUE UUID="229862c9-63d4-4e12-b8b5-105182cd044a">
                       <SHORT-NAME>BMS_MaxDCOut_Current</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -4301,7 +4301,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="4265c4c3-6702-4cfa-a449-64299b91f5e6">
+                    <ECUC-CONTAINER-VALUE UUID="e8724b89-e1d2-4033-94f3-4ed162c4aa65">
                       <SHORT-NAME>BMS_MaxDCChrg_Current</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -4341,7 +4341,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="3a54608a-1529-493d-8da0-7a7dc52a0ea1">
+                    <ECUC-CONTAINER-VALUE UUID="5819a34a-689e-4141-aa2d-72bc3f1cc2d0">
                       <SHORT-NAME>BMS_1_Can_Network_CANNODE_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -4397,7 +4397,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                       <SUB-CONTAINERS>
-                        <ECUC-CONTAINER-VALUE UUID="62aa0018-d09a-49b1-b836-575cab935319">
+                        <ECUC-CONTAINER-VALUE UUID="f32a4a3e-cc84-417c-a7d2-89543ac43ce8">
                           <SHORT-NAME>ComTxIPdu</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -4411,11 +4411,11 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                           <SUB-CONTAINERS>
-                            <ECUC-CONTAINER-VALUE UUID="c8a018ad-8d51-4d94-bf1f-ab2202aaaf6f">
+                            <ECUC-CONTAINER-VALUE UUID="6a36820b-c0c1-4c94-9e52-1b1ce1169d5f">
                               <SHORT-NAME>ComTxModeTrue</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue</DEFINITION-REF>
                               <SUB-CONTAINERS>
-                                <ECUC-CONTAINER-VALUE UUID="e2002dae-a2ce-4a9e-a95f-0d98686e4eeb">
+                                <ECUC-CONTAINER-VALUE UUID="e94a4ba5-500e-43ae-8561-835ab140d1f7">
                                   <SHORT-NAME>ComTxMode</SHORT-NAME>
                                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode</DEFINITION-REF>
                                   <PARAMETER-VALUES>
@@ -4443,11 +4443,11 @@
                                 </ECUC-CONTAINER-VALUE>
                               </SUB-CONTAINERS>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="82aa8ab8-9d72-4d89-991e-cb26984856d8">
+                            <ECUC-CONTAINER-VALUE UUID="e5d16cde-e04d-4907-bef5-5c3e3009a298">
                               <SHORT-NAME>ComTxModeFalse</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse</DEFINITION-REF>
                               <SUB-CONTAINERS>
-                                <ECUC-CONTAINER-VALUE UUID="f437172c-7cf0-4647-9686-9fbbfe0ee0cf">
+                                <ECUC-CONTAINER-VALUE UUID="da19ff0d-7329-4013-9bb3-b3f0ddaa0bc0">
                                   <SHORT-NAME>ComTxMode</SHORT-NAME>
                                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse/ComTxMode</DEFINITION-REF>
                                   <PARAMETER-VALUES>
@@ -4479,7 +4479,7 @@
                         </ECUC-CONTAINER-VALUE>
                       </SUB-CONTAINERS>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="da8c15aa-d256-4778-b127-00c597a833b0">
+                    <ECUC-CONTAINER-VALUE UUID="91bbd937-2769-4e1d-89b0-7e5ffcb849d2">
                       <SHORT-NAME>BMS_charge_request</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -4519,7 +4519,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="9406c87c-e0bb-4eca-9588-a3547d19bd5a">
+                    <ECUC-CONTAINER-VALUE UUID="eb6e0043-6f0d-4d39-b96d-081ed83249a6">
                       <SHORT-NAME>BMS_CC2</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -4559,7 +4559,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="8ac26017-baef-42fa-8df3-12ee40ce82d0">
+                    <ECUC-CONTAINER-VALUE UUID="1da16fb8-4c78-4d96-8d9e-b11f43d602d8">
                       <SHORT-NAME>BMS_SOC</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -4599,7 +4599,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="fc1cbead-5b08-4d58-b298-88b90eea128e">
+                    <ECUC-CONTAINER-VALUE UUID="facc5c82-9372-4c80-9097-0a954f4d498d">
                       <SHORT-NAME>BMS_DC_Current</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -4639,7 +4639,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="ed625daf-1437-41db-9196-e25ecea46275">
+                    <ECUC-CONTAINER-VALUE UUID="cf225222-e5c1-44bd-a2e2-e0f1fb5e061a">
                       <SHORT-NAME>BMS_DCMainWireVolt</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -4679,7 +4679,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="42cf5b1c-cdf6-4be9-ac0c-736e0715e339">
+                    <ECUC-CONTAINER-VALUE UUID="20b10022-5b69-4f0f-98a1-692d36ddabaf">
                       <SHORT-NAME>BMS_3_Can_Network_CANNODE_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -4743,7 +4743,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                       <SUB-CONTAINERS>
-                        <ECUC-CONTAINER-VALUE UUID="7c04e7f3-b987-42f2-bd41-3dd1d8e0c804">
+                        <ECUC-CONTAINER-VALUE UUID="6c33d1ad-05c1-4e1f-ae55-5260c1622d8f">
                           <SHORT-NAME>ComTxIPdu</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -4757,11 +4757,11 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                           <SUB-CONTAINERS>
-                            <ECUC-CONTAINER-VALUE UUID="62627e9a-995b-45cc-82b1-2b832d6bc82f">
+                            <ECUC-CONTAINER-VALUE UUID="ed013f3e-cae3-41c0-a3ce-e87072de754d">
                               <SHORT-NAME>ComTxModeTrue</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue</DEFINITION-REF>
                               <SUB-CONTAINERS>
-                                <ECUC-CONTAINER-VALUE UUID="34227210-4e3e-4786-b61c-ae190b923f30">
+                                <ECUC-CONTAINER-VALUE UUID="f2b425f5-4573-45fa-add4-1b45ec9a5f94">
                                   <SHORT-NAME>ComTxMode</SHORT-NAME>
                                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode</DEFINITION-REF>
                                   <PARAMETER-VALUES>
@@ -4789,11 +4789,11 @@
                                 </ECUC-CONTAINER-VALUE>
                               </SUB-CONTAINERS>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="cbd0e04b-e23b-4ed8-9277-a52527b47bef">
+                            <ECUC-CONTAINER-VALUE UUID="9ba54c58-82b6-47c8-a8ec-b9ffca820815">
                               <SHORT-NAME>ComTxModeFalse</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse</DEFINITION-REF>
                               <SUB-CONTAINERS>
-                                <ECUC-CONTAINER-VALUE UUID="c03b71d0-edb4-43b4-b3b3-20ce23eb1007">
+                                <ECUC-CONTAINER-VALUE UUID="bae4abe3-a2ce-4c7a-8924-00056d72056c">
                                   <SHORT-NAME>ComTxMode</SHORT-NAME>
                                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse/ComTxMode</DEFINITION-REF>
                                   <PARAMETER-VALUES>
@@ -4825,7 +4825,7 @@
                         </ECUC-CONTAINER-VALUE>
                       </SUB-CONTAINERS>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="b1fd712f-cec1-47ad-9637-2a187086fa06">
+                    <ECUC-CONTAINER-VALUE UUID="8ae50a42-ed08-4808-8d89-f19e35250aa7">
                       <SHORT-NAME>BMS_VCU_cooling_Sts</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -4865,7 +4865,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="c48fad61-e854-4c58-896e-23eaa15d7fde">
+                    <ECUC-CONTAINER-VALUE UUID="1409bad8-575a-4530-bfcc-3a6028d5a918">
                       <SHORT-NAME>BMS_IC_Temp_Runaway</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -4905,7 +4905,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="1121f745-1c57-4e8e-8f5d-771673bc24d2">
+                    <ECUC-CONTAINER-VALUE UUID="4711ef52-1b1a-4c45-9e08-82853997a569">
                       <SHORT-NAME>BMS_IC_Heating_Sts</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -4945,7 +4945,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="57bc67c2-a8d7-4c11-bd02-6bf69183fbde">
+                    <ECUC-CONTAINER-VALUE UUID="fcb49e18-7339-47f7-9faf-93afa4786983">
                       <SHORT-NAME>BMS_IC_InsulationFlt_Levl</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -4985,7 +4985,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="08255acb-9919-4430-ac4f-1c787470b3e9">
+                    <ECUC-CONTAINER-VALUE UUID="136ac2f4-8b10-44c5-9fb7-d51226e5016d">
                       <SHORT-NAME>BMS_IC_SOCLower</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -5025,7 +5025,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="41b477bc-9e4e-4b77-8c03-9bb6de7af055">
+                    <ECUC-CONTAINER-VALUE UUID="65a09e7b-7762-4f00-b1ad-e66ca80c358b">
                       <SHORT-NAME>BMS_IC_TempHigh</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -5065,7 +5065,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="64170d92-7854-4686-8f41-01893c7f3678">
+                    <ECUC-CONTAINER-VALUE UUID="3c7c8a90-7392-4e47-b4b1-c9ea368054ec">
                       <SHORT-NAME>BMS_IC_SOCLow</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -5105,7 +5105,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="74eca975-3268-4765-b24e-c1c7401484ee">
+                    <ECUC-CONTAINER-VALUE UUID="69cebc36-60a1-40f4-be9a-f2dbdd7d6129">
                       <SHORT-NAME>BMS_12_Can_Network_CANNODE_0</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -5145,7 +5145,7 @@
                         </ECUC-REFERENCE-VALUE>
                       </REFERENCE-VALUES>
                       <SUB-CONTAINERS>
-                        <ECUC-CONTAINER-VALUE UUID="ceefc134-1be0-47ed-8d1e-72465fbfc95b">
+                        <ECUC-CONTAINER-VALUE UUID="43b09f09-d15d-4ccb-ac22-9171fba7b65c">
                           <SHORT-NAME>ComTxIPdu</SHORT-NAME>
                           <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu</DEFINITION-REF>
                           <PARAMETER-VALUES>
@@ -5159,11 +5159,11 @@
                             </ECUC-NUMERICAL-PARAM-VALUE>
                           </PARAMETER-VALUES>
                           <SUB-CONTAINERS>
-                            <ECUC-CONTAINER-VALUE UUID="5bc51835-9487-4277-a397-b991121f56be">
+                            <ECUC-CONTAINER-VALUE UUID="04cb0e92-9197-424e-981d-4ff428406f89">
                               <SHORT-NAME>ComTxModeTrue</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue</DEFINITION-REF>
                               <SUB-CONTAINERS>
-                                <ECUC-CONTAINER-VALUE UUID="32d7e936-8758-45c0-ae90-468accf4287e">
+                                <ECUC-CONTAINER-VALUE UUID="22f76177-7fd3-4b5e-a733-8cbb1128011e">
                                   <SHORT-NAME>ComTxMode</SHORT-NAME>
                                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeTrue/ComTxMode</DEFINITION-REF>
                                   <PARAMETER-VALUES>
@@ -5191,11 +5191,11 @@
                                 </ECUC-CONTAINER-VALUE>
                               </SUB-CONTAINERS>
                             </ECUC-CONTAINER-VALUE>
-                            <ECUC-CONTAINER-VALUE UUID="49964364-6011-4657-8845-b64b6b62f098">
+                            <ECUC-CONTAINER-VALUE UUID="038f6dc7-144f-4259-91d1-9d7c6fe7c95b">
                               <SHORT-NAME>ComTxModeFalse</SHORT-NAME>
                               <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse</DEFINITION-REF>
                               <SUB-CONTAINERS>
-                                <ECUC-CONTAINER-VALUE UUID="e624322d-5c5a-41c0-bf8b-1e6b049beba7">
+                                <ECUC-CONTAINER-VALUE UUID="52b12f8f-73af-4821-9c4e-f00f4aa38505">
                                   <SHORT-NAME>ComTxMode</SHORT-NAME>
                                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComIPdu/ComTxIPdu/ComTxModeFalse/ComTxMode</DEFINITION-REF>
                                   <PARAMETER-VALUES>
@@ -5227,7 +5227,7 @@
                         </ECUC-CONTAINER-VALUE>
                       </SUB-CONTAINERS>
                     </ECUC-CONTAINER-VALUE>
-                    <ECUC-CONTAINER-VALUE UUID="92f4c72f-944e-4969-8834-c13149bccafd">
+                    <ECUC-CONTAINER-VALUE UUID="c3a9bc5f-c077-4219-84df-5386617e3b0f">
                       <SHORT-NAME>BMS_VCU_Heating_Req</SHORT-NAME>
                       <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComConfig/ComSignal</DEFINITION-REF>
                       <PARAMETER-VALUES>
@@ -5269,7 +5269,7 @@
                     </ECUC-CONTAINER-VALUE>
                   </SUB-CONTAINERS>
                 </ECUC-CONTAINER-VALUE>
-                <ECUC-CONTAINER-VALUE UUID="7aae11f0-8bfa-4dcb-8141-c2e897e043a2">
+                <ECUC-CONTAINER-VALUE UUID="898567a2-8074-43ba-9c66-9175fdf79013">
                   <SHORT-NAME>ComGeneral</SHORT-NAME>
                   <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR_Com/EcucModuleDefs/Com/ComGeneral</DEFINITION-REF>
                   <PARAMETER-VALUES>
