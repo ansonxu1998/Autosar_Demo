@@ -3,6 +3,37 @@
   <AR-PACKAGES>
     <AR-PACKAGE>
       <SHORT-NAME>Pkg_System_Cfg</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE>
+          <SHORT-NAME>Pkg_Pdus</SHORT-NAME>
+          <ELEMENTS>
+            <GENERAL-PURPOSE-I-PDU>
+              <SHORT-NAME>XCP_RX_CMD</SHORT-NAME>
+              <LENGTH>8</LENGTH>
+            </GENERAL-PURPOSE-I-PDU>
+            <GENERAL-PURPOSE-I-PDU>
+              <SHORT-NAME>XCP_RX_Broadcast</SHORT-NAME>
+              <LENGTH>8</LENGTH>
+            </GENERAL-PURPOSE-I-PDU>
+            <GENERAL-PURPOSE-I-PDU>
+              <SHORT-NAME>XCP_TX_DAQ2</SHORT-NAME>
+              <LENGTH>8</LENGTH>
+            </GENERAL-PURPOSE-I-PDU>
+            <GENERAL-PURPOSE-I-PDU>
+              <SHORT-NAME>XCP_TX_DAQ1</SHORT-NAME>
+              <LENGTH>8</LENGTH>
+            </GENERAL-PURPOSE-I-PDU>
+            <GENERAL-PURPOSE-I-PDU>
+              <SHORT-NAME>XCP_TX_DAQ0</SHORT-NAME>
+              <LENGTH>8</LENGTH>
+            </GENERAL-PURPOSE-I-PDU>
+            <GENERAL-PURPOSE-I-PDU>
+              <SHORT-NAME>XCP_TX_RES</SHORT-NAME>
+              <LENGTH>8</LENGTH>
+            </GENERAL-PURPOSE-I-PDU>
+          </ELEMENTS>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
     </AR-PACKAGE>
   </AR-PACKAGES>
 </AUTOSAR>
